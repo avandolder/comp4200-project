@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="logins">LOGINS</string>
+    <string name="change_login">Change Login</string>
+    <string name="delete_login">Delete Login</string>
+    <string name="site_hint">site</string>
+    <string name="site">Site:</string>
+    <string name="username">Username:</string>
+    <string name="username_hint">username</string>
+    <string name="password">Password:</string>
+    <string name="password_hint">password</string>
+    <string name="add_login">Add Login</string>
+    <string name="update_login">Update Login</string>
+    <string name="login_manager">Login Manager</string>
+    <string name="view_logins">View Logins</string>
+    <string name="default_username">Default Username:</string>
+    <string name="generated_password_length">Generated Password Length:</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="shared_pref_file">com.example.project.PREF_FILE</string>
+    <string name="default_username_key">default_username</string>
+    <string name="password_length_key">password_length</string>
+    <string name="generate_password">Generate Password</string>
+</resources>

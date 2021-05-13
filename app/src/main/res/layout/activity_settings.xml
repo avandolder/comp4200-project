@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+            <TableRow>
+                <TextView android:text="@string/default_username"/>
+                <EditText
+                    android:hint="@string/username_hint"
+                    android:inputType="text"
+                    android:autofillHints="username"
+                    android:id="@+id/defaultUsername" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/generated_password_length"/>
+                <EditText
+                    android:hint="10"
+                    android:inputType="number"
+                    android:autofillHints="@string/generated_password_length"
+                    android:id="@+id/passwordLength" />
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_settings"
+            android:onClick="updateSettings" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
